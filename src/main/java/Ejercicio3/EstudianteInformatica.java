@@ -57,7 +57,5 @@ public class EstudianteInformatica extends Estudiante{
     public String getCarrera() {
         return carrera;
     }
-
-    
     
 }
