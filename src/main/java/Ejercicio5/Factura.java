@@ -11,7 +11,7 @@ public class Factura extends Precio{
   
     public void imprimirFactura(String emisor, String cliente, Double precio) {
         
-        System.out.println(emisor+" Cobra un total de "
+        System.out.println("Persona en la caja : "+emisor+" Cobra un total de "
                            +precio+" al cliente: "+cliente);
     } 
 }
