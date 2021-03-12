@@ -41,7 +41,10 @@ public class ListaReales implements Estadisticas<Double>{
 
     @Override
     public Double calcularMedia() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        double media;
+        media = calcularPromedio();
+        
+        return media;
     }
 
     @Override
@@ -64,8 +67,12 @@ public class ListaReales implements Estadisticas<Double>{
         return suma;   
     }
     
-    public void resultados(double suma, double max, double min) {
-        
+    public void resultados(double suma, double max, double min,double media) {
+        System.out.println("El numero maximo es "+max
+                            +"\nEl numero minimo es "+min
+                            +"\nLa sumatoria es "+suma
+                            +"\nEl promedio y la media es "+media);
+
     }
 
    
