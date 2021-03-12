@@ -34,7 +34,7 @@ public class ListaReales implements Estadisticas<Double>{
             if (listaReales.get(i) > max) {
                 max = listaReales.get(i);
             }
-            ;
+            
         }
         return max;
     }

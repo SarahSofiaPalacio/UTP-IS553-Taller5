@@ -26,7 +26,7 @@ public class MyMath implements Extremos<Double>{
             if (a.get(i) > max) {
                 max = a.get(i);
             }
-            ;
+            
         }
         return max;   
     }

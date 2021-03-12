@@ -9,11 +9,6 @@ public class EstudianteInformatica extends Estudiante{
     
 // Contructores----------------------------------------------------------------
 
-    public EstudianteInformatica(Integer semestre, String carrera) {
-        this.semestre = semestre;
-        this.carrera = carrera;
-    }
-
     public EstudianteInformatica(Integer semestre, String carrera, 
                                  String email, Integer cedula) {
         super(email, cedula);
