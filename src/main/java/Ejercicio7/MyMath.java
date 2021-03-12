@@ -28,6 +28,12 @@ public class MyMath implements Extremos<Double>{
             }
             ;
         }
-        return max;    }
+        return max;   
+    }
+    
+    public void resultados(double max, double min){
+        System.out.println("El numero maximo es "+max
+                           +"\nEl numero minimo es "+min);
+    }
     
 }
