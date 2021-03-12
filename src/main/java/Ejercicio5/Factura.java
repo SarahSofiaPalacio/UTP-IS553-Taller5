@@ -7,7 +7,7 @@ public class Factura extends Precio{
     protected String emisor;
     protected String cliente;
   
- // Metodos--------------------------------------------------------------------- 
+// Metodos--------------------------------------------------------------------- 
   
     public void imprimirFactura(String emisor, String cliente, Double precio) {
         
